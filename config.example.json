@@ -1,0 +1,12 @@
+{
+  "listen_addr": "127.0.0.1:8094",
+  "webhook_secret": "lab-webhook-secret",
+  "stem_root": "/tmp/xylon-record",
+  "out_root": "/tmp/xylon-compose",
+  "index_path": "/tmp/xylon-compose/session_index.json",
+  "retention_hours": 120,
+  "retention_interval_sec": 60,
+  "janus_pp_rec_path": "janus-pp-rec",
+  "ffmpeg_path": "ffmpeg",
+  "interface_webhook_url": "http://127.0.0.1:8093/v1/webhooks/xylon"
+}
